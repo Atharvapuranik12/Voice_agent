@@ -1,14 +1,14 @@
-This project is a Livekit AI voice agent that connects to a Livekit room for real-time voice conversations. It uses:
-
-Whisper for Speech-to-Text (STT)
-Google Gemini 1.5 Flash for the Large Language Model (LLM)
-Cartesia AI for Text-to-Speech (TTS)
-It also includes interruption handling for natural interaction.
+My_Voice_Agent : 
+This project is a Livekit AI voice agent that connects to a Livekit room for real-time voice conversations. 
+It uses:
+1.Whisper for Speech-to-Text (STT)
+2.Google Gemini 1.5 Flash for the Large Language Model (LLM)
+3.Cartesia AI for Text-to-Speech (TTS)
+4.It also includes interruption handling for natural interaction.
 
 To run it:
-
-Install Python dependencies from requirements.txt.
-Set up API keys (Gemini, Cartesia, Livekit) and your Livekit server URL in a .env file (remember to keep .env out of Git!).
-Ensure ffmpeg is installed.
-Start your Livekit server.
-Run python main.py and test it using a Livekit client.
+1.Install Python dependencies from requirements.txt.
+2.Set up API keys (Gemini, Cartesia, Livekit) and your Livekit server URL in a .env file (remember to keep .env out of Git!).
+3.Ensure ffmpeg is installed.
+4.Start your Livekit server.
+5.Run python voice.py and test it using a Livekit client.

@@ -1,0 +1,8 @@
+python-dotenv
+requests
+google-generativeai
+openai-whisper
+numpy
+soundfile
+livekit
+livekit-agents
